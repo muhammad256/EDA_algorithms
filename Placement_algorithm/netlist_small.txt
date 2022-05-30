@@ -1,0 +1,8 @@
+And A1 (in Q1, in Q2, out S1);
+Or O1 (in Q2, in Q3, out S2);
+Xor X1 (in S1, in S2, out S3);
+Inv I1 (in S2, out S4);
+And A2 (in Q3, in S3, out S5);
+Flipflop F1 (in S1, clk Clk1, out Q4);
+Flipflop F2 (in S3, clk Clk1, out Q5);
+Xor X2 (in Q4, in Q5, out S7);
